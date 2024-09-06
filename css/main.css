@@ -192,7 +192,7 @@ section {
 .word5 {
   display: flex;
   position: absolute;
-  bottom: 80px;
+  bottom: 95px;
   right: 0px;
   color: #fff;
   font-size: 30px;
@@ -219,37 +219,6 @@ section {
   animation-iteration-count: infinite;
 }
 
-.paint1 {
-  left: -30px;
-  bottom: -500px;
-}
-
-.paint2 {
-  left: 50px;
-  bottom: -500px;
-}
-
-.paint3 {
-  left: 0px;
-  bottom: -500px;
-}
-
-@keyframes anim {
-  0% {
-    bottom: -500px;
-  }
-  10% {
-    bottom: 0px;
-  }
-  98% {
-    bottom: 0px;
-  }
-  100% {
-    opacity: 0;
-    transition: 1s;
-    bottom: 0px;
-  }
-}
 #profile {
   position: relative;
   margin-top: 100px;
@@ -854,6 +823,7 @@ section {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
 }
 
 .m_item > div:hover img {
