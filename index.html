@@ -509,11 +509,11 @@
             <img src="./images/contact1.jpg" alt="이미지1" />
           </div>
           <div class="slide2">
-            <img src="./images/contact2.png" alt="이미지2" />
+            <img src="./images/contact2.jpg" alt="이미지2" />
           </div>
-          <div class="slide3">
+          <!-- <div class="slide3">
             <img src="./images/contact3.jpg" alt="이미지3" />
-          </div>
+          </div> -->
 
           <!-- 좌, 우 방향버튼 -->
           <ul class="s_btn">
@@ -661,7 +661,7 @@
           v_slide_img.stop().fadeOut(); //보이는 이미지 숨기고
           $(".visual .ctrl_btn li").removeClass("on"); //콘트롤버튼 서식 모두 제거
 
-          if (i2 == 2) {
+          if (i2 == 1) {
             //만약에 마지막 이미지라면
             i2 = 0; //처음이미지가 보이게하고
           } else {
@@ -676,7 +676,7 @@
           v_slide_img.stop().fadeOut();
           $(".visual .ctrl_btn li").removeClass("on"); //콘트롤버튼 서식 모두 제거
           if (i2 == 0) {
-            i2 = 2;
+            i2 = 1;
           } else {
             i2--;
           }
