@@ -788,7 +788,7 @@ section {
   display: grid;
   grid-gap: 10px;
   grid-template-rows: 400px 400px;
-  grid-template-areas: "g01 g02 g03 g03" "g04 g04 g05 g06";
+  grid-template-areas: "g01 g01 g03 g03" "g04 g04 g05 g06";
   position: absolute;
   z-index: 11;
   margin-top: 50px;
@@ -798,20 +798,18 @@ section {
   grid-area: g01;
 }
 
-.item2 {
-  grid-area: g02;
-}
-
 .item3 {
   grid-area: g03;
 }
 
 .item4 {
   grid-area: g04;
+  width: 550px;
 }
 
 .item5 {
   grid-area: g05;
+  width: 300px;
 }
 
 .item6 {
@@ -978,4 +976,8 @@ footer {
   line-height: 40px;
   color: #fff;
   font-style: normal;
+}
+
+.bold1 {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
